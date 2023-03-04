@@ -12,10 +12,6 @@ The Buffer Pool Manager (BPM) is responsible for moving physical pages back and 
 - PageGuard encapsulation to provide safe access to Page objects, with automatic lock release using RAII mechanism to avoid potential deadlocks, as well as manual Unpin and Unlatch interfaces for added flexibility
 - Basic stress testing with 5000 QPS achieved under conditions of 64-page buffer pool size and 16 concurrent threads accessing a single BPM instance
 
-## Usage
-
-The implementation is provided as a set of C++ source files that can be compiled into an executable or library. To use the implementation, simply include the header files in your project and link against the compiled library.
-
 ## Test
 
 I use **Google Test** framework for the testing of this project.
@@ -23,7 +19,7 @@ However, I **DO NOT** include the `gtest` library and the `test` source file in 
 
 ## Disclaimer
 
-This implementation is provided as-is and without any warranty or guarantee of its fitness for any purpose. The author assumes no responsibility for any consequences resulting from the use of this implementation.
+This repository contains **ONLY** the source code for the copy-on-write trie implementation. It **DOES NOT** include any dependencies or libraries, and users are responsible for configuring the code to work in their own environment. This implementation is not intended for commercial use, and the author assumes **NO** responsibility for any consequences resulting from its use.
 
 ## License
 
