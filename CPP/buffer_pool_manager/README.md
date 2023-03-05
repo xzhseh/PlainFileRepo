@@ -19,7 +19,7 @@ However, I **DO NOT** include the `gtest` library and the `test` source file in 
 
 ## Disclaimer
 
-This repository contains **ONLY** the source code for the copy-on-write trie implementation. It **DOES NOT** include any dependencies or libraries, and users are responsible for configuring the code to work in their own environment. This implementation is not intended for commercial use, and the author assumes **NO** responsibility for any consequences resulting from its use.
+This repository contains **ONLY** the source code for the BufferPoolManager implementation. It **DOES NOT** include any dependencies or libraries, and users are responsible for configuring the code to work in their own environment. This implementation is not intended for commercial use, and the author assumes **NO** responsibility for any consequences resulting from its use.
 
 ## License
 
